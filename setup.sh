@@ -8,6 +8,7 @@ python3.11 -m venv myenv
 
 echo "✨ Activating virtual environment..."
 source myenv/bin/activate
+git clone https://github.com/abikesa/dummy
 
 echo "📦 Installing requirements..."
 pip install --upgrade pip
