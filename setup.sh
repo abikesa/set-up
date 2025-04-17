@@ -20,7 +20,7 @@ PYTHON_VERSION="python3.11"
 VENV_NAME="myenv"
 TEMPLATE_REPO="https://github.com/abikesa/$TEMPLATE_NAME.git"
 TARGET_REPO="https://github.com/abikesa/$TARGET_NAME.git"
-REQUIREMENTS_PATH="kitabo/ensi/requirements.txt"
+REQUIREMENTS_PATH="template-repo/kitabo/ensi/requirements.txt"
 
 echo "🐍 Creating virtual environment..."
 $PYTHON_VERSION -m venv "$VENV_NAME"
